@@ -134,7 +134,7 @@ li a {
   width: 80%;
 }
 
-.section-one-text {
+.section-one-title {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -143,4 +143,76 @@ li a {
   font-weight: 600;
   font-style: normal;
   font-size: 10rem;
+}
+
+/* SECTION TWO */
+.section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+}
+
+.section-two-text {
+  width: 50%;
+}
+
+.section-two-text h3 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+.section-two-text p {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.section-two a:link {
+  color: var(--darkblue);
+  text-decoration: none;
+}
+.section-two a:visited {
+  color: var(--darkblue);
+  text-decoration: none;
+}
+
+/* SECTION THREE */
+.section-three {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5vw;
+  /* justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr; */
+  position: relative;
+}
+
+.section-three-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.item1 {
+  width: 50%;
+  margin-right: 5vw;
+}
+
+.item2 {
+  width: 30%;
+}
+
+.section-three-colorbox {
+  background-color: var(--yellow);
+  width: 50vw;
+  height: 100vh;
 }
