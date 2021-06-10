@@ -410,3 +410,89 @@ li a {
   width: 70vw;
   height: 100vh;
 }
+
+/* SECTION NINE */
+.section-nine {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+}
+
+.section-nine-text {
+  width: 60%;
+  margin-bottom: 20vh;
+}
+
+.section-nine-text h3 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+.section-nine-text p {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3rem;
+  color: black;
+}
+
+/* SECTION TEN */
+.section-ten {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+  margin: 0 auto;
+  position: relative;
+  width: 80vw;
+  height: 100vh;
+  background-color: var(--lightblue);
+  margin-bottom: 20vh;
+}
+
+.section-ten-image {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: absolute;
+}
+
+.item8 {
+  width: 50%;
+  height: 100vh;
+}
+
+.section-ten-text {
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  flex-wrap: wrap;
+  /* position: absolute; */
+  width: 50%;
+  height: 100vh;
+  padding: 5vw;
+}
+.section-ten-text h3 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+.section-ten-text a:link {
+  color: var(--darkblue);
+  text-decoration: none;
+}
+.section-ten-text a:visited {
+  color: var(--darkblue);
+  text-decoration: none;
+}
