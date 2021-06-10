@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  max-width: 1500px;
+}
+
 img {
   width: 100%;
 }
@@ -455,6 +459,7 @@ li a {
   height: 100vh;
   background-color: var(--lightblue);
   margin-bottom: 20vh;
+  border-bottom: 1px solid #cccccc;
 }
 
 .section-ten-image {
