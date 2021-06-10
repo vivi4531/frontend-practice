@@ -7,6 +7,9 @@
   <li><a href="https://unsplash.com/@tompottiger">Tom Pottiger</a></li>
   <li><a href="https://unsplash.com/@txbrown">Ricardo Abreu</a></li>
   <li><a href="https://unsplash.com/@lucabravo">Luca Bravo</a></li>
+  <li><a href="https://unsplash.com/@kvalifik">Kvalifik</a></li>
+  <li><a href="https://unsplash.com/@austinchan">Austin Chan</a></li>
+  <li><a href="https://unsplash.com/@jorgebphoto">JB Photography</a></li>
 </ul>
 
 <h3>Result</h3>

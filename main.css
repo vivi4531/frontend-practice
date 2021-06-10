@@ -284,3 +284,46 @@ li a {
   font-size: 1.3rem;
   color: black;
 }
+
+/* SECTION SIX */
+.section-six {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-end; */
+  align-items: center;
+  /* padding: 5vw; */
+  /* justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr; */
+  position: relative;
+}
+
+.section-six-images {
+  display: flex;
+  flex-flow: column wrap;
+  /* justify-content: space-evenly; */
+  position: absolute;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.item3 {
+  width: 30%;
+  margin-bottom: 15vh;
+}
+
+.item4 {
+  width: 30%;
+}
+
+.section-six-image-single {
+}
+
+.item5 {
+  width: 50%;
+}
+
+.section-six-colorbox {
+  background-color: var(--green);
+  width: 60vw;
+  height: 120vh;
+}
