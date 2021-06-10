@@ -287,28 +287,35 @@ li a {
 
 /* SECTION SIX */
 .section-six {
+  /* display: flex; */
+  /* flex-wrap: wrap-reverse; */
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: flex-end; */
+  /* justify-content: flex-start; */
   align-items: center;
   /* padding: 5vw; */
-  /* justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr; */
-  position: relative;
+  /* position: relative; */
+  /* flex-grow: 1; */
+  /* flex-basis: 50vw;*/
 }
 
 .section-six-images {
+  flex-grow: 2;
+  flex-basis: 500px;
   display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  /* display: flex;
   flex-flow: column wrap;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
   position: absolute;
   margin-left: 5vw;
-  margin-right: 5vw;
+  margin-right: 5vw; */
 }
 
 .item3 {
   width: 30%;
-  margin-bottom: 15vh;
+  /* margin-bottom: 15vh; */
 }
 
 .item4 {
@@ -316,6 +323,12 @@ li a {
 }
 
 .section-six-image-single {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  flex-basis: 500px;
+  position: absolute;
+  padding: 5vw;
 }
 
 .item5 {
@@ -326,4 +339,74 @@ li a {
   background-color: var(--green);
   width: 60vw;
   height: 120vh;
+}
+
+/* SECTION SEVEN */
+.section-seven {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+}
+
+.section-seven-text {
+  width: 60%;
+  margin-bottom: 20vh;
+}
+
+.section-seven-text h3 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+.section-seven-text p {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.section-seven img {
+  width: 80%;
+  margin-bottom: 20vh;
+}
+
+/* SECTION EIGHT */
+.section-eight {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+  /* justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr; */
+  position: relative;
+}
+
+.section-eight-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+}
+
+.item6 {
+  width: 40%;
+  margin-right: 5vw;
+}
+
+.item7 {
+  width: 60%;
+}
+
+.section-eight-colorbox {
+  background-color: var(--purple);
+  width: 70vw;
+  height: 100vh;
 }
