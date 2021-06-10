@@ -216,3 +216,42 @@ li a {
   width: 50vw;
   height: 100vh;
 }
+
+/* SECTION FOUR */
+.section-four {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+}
+
+.section-four-text {
+  width: 60%;
+  margin-bottom: 20vh;
+}
+.section-four-text h3 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+.section-four-text p {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.section-four-video h4 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+  color: black;
+  margin-top: 1rem;
+}
