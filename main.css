@@ -24,6 +24,7 @@ img {
 }
 
 body {
+  overflow-x: hidden;
   background-color: var(--white);
   /* background-image: url("reference.jpeg");
     background-repeat: no-repeat;
@@ -79,6 +80,13 @@ header {
   font-weight: 600;
   font-style: normal;
   border-bottom: 1px solid lightgrey;
+}
+
+.nav-main-right {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 95%;
 }
 
 .nav-main img {
@@ -231,7 +239,7 @@ li a {
 }
 
 .section-four-text {
-  width: 60%;
+  width: 50%;
   margin-bottom: 20vh;
 }
 .section-four-text h3 {
@@ -269,7 +277,7 @@ li a {
 }
 
 .section-five-text {
-  width: 60%;
+  width: 50%;
   margin-bottom: 20vh;
 }
 .section-five-text h3 {
@@ -355,7 +363,7 @@ li a {
 }
 
 .section-seven-text {
-  width: 60%;
+  width: 50%;
   margin-bottom: 20vh;
 }
 
@@ -398,11 +406,12 @@ li a {
   justify-content: space-between;
   align-items: center;
   position: absolute;
+  margin-left: 10vw;
 }
 
 .item6 {
   width: 40%;
-  margin-right: 5vw;
+  margin-right: 10vw;
 }
 
 .item7 {
@@ -425,7 +434,7 @@ li a {
 }
 
 .section-nine-text {
-  width: 60%;
+  width: 50%;
   margin-bottom: 20vh;
 }
 
