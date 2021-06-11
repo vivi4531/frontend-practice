@@ -468,7 +468,7 @@ li a {
   height: 100vh;
   background-color: var(--lightblue);
   margin-bottom: 20vh;
-  border-bottom: 1px solid #cccccc;
+  /* border-bottom: 1px solid #cccccc; */
 }
 
 .section-ten-image {
@@ -509,4 +509,79 @@ li a {
 .section-ten-text a:visited {
   color: var(--darkblue);
   text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  /* margin: 5vw; */
+  background-color: grey;
+  display: flex;
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 5vw; */
+  margin: 0 auto;
+  margin-bottom: 20vh;
+  justify-content: space-between;
+
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+footer h1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin-bottom: 10vh;
+}
+
+.footer-nav {
+  font-size: 0.9rem;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+footer li {
+  float: left;
+}
+
+footer li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.footer-column {
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 30%;
+}
+.footer-section {
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10vh;
+  height: 30%;
+}
+
+.footer-section a {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3rem;
+  color: black;
+  text-decoration: none;
+  display: block;
 }
